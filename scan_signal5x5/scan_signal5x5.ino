@@ -16,84 +16,84 @@ void loop() {
   delay(20);//all zero */
   digitalWrite(INH1,LOW);digitalWrite(INH2,HIGH);
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//0
+  delay(3000);//0
 
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//1 
+  delay(3000);//1 
   
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//2
+  delay(3000);//2
 
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//3
+  delay(3000);//3
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//4
+  delay(3000);//4
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//5
+  delay(3000);//5
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//6
+  delay(3000);//6
 
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//7
+  delay(3000);//7
 
  
   digitalWrite(RD,HIGH);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//8
+  delay(3000);//8
 
   digitalWrite(RD,HIGH);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//9
+  delay(3000);//9
 
   digitalWrite(RD,HIGH);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//10
+  delay(3000);//10
 
   digitalWrite(RD,HIGH);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//11
+  delay(3000);//11
 
   digitalWrite(RD,HIGH);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//12
+  delay(3000);//12
 
   digitalWrite(RD,HIGH);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//13
+  delay(3000);//13
 
   digitalWrite(RD,HIGH);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//14
+  delay(3000);//14
 
   digitalWrite(RD,HIGH);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//15
+  delay(3000);//15
 
    digitalWrite(INH1,HIGH);digitalWrite(INH2,LOW);
 
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//0
+  delay(3000);//0
 
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//1 
+  delay(3000);//1 
   
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//2
+  delay(3000);//2
 
   digitalWrite(RD,LOW);digitalWrite(RC,LOW); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//3
+  delay(3000);//3
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,LOW);
-  delay(7000);//4
+  delay(3000);//4
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,HIGH); digitalWrite(RA,HIGH);
-  delay(7000);//5
+  delay(3000);//5
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,HIGH);
-  delay(7000);//6
+  delay(3000);//6
 
 
   digitalWrite(RD,LOW);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//7
+  delay(3000);//7
 
  
   digitalWrite(RD,HIGH);digitalWrite(RC,HIGH); digitalWrite(RB,LOW); digitalWrite(RA,LOW);
-  delay(7000);//8
+  delay(3000);//8
   
 }
