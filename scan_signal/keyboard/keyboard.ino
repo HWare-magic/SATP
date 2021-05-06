@@ -33,11 +33,11 @@ void setup() {
 	Blinker.begin(auth, ssid, pswd);
 	Blinker.attachData(dataRead);
 	Blinker.attachHeartbeat(heartbeat);
-	// RV.attach(RV_callback);//Ë¢ÐÂ°´Å¥    ×¢²á»Øµ÷º¯Êý
-	//Blinker.attachDataStorage(dataStorage);//µ÷ÓÃÔÆº¯Êý
+	// RV.attach(RV_callback);//Ë¢ï¿½Â°ï¿½Å¥    ×¢ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½
+	//Blinker.attachDataStorage(dataStorage);//ï¿½ï¿½ï¿½ï¿½ï¿½Æºï¿½ï¿½ï¿½
 }
 void heartbeat() {
-	Number3.print(a); //·ÅloopÀïÃ»·´Ó¦
+	Number3.print(a); //ï¿½ï¿½loopï¿½ï¿½Ã»ï¿½ï¿½Ó¦
 	//Number4.print(qita_read);
 }
 // the loop function runs over and over again until power down or reset
@@ -46,19 +46,19 @@ void loop() {
 	Serial.println(a);
 	
 	digitalWrite(D6, HIGH);digitalWrite(D7, HIGH);
-	delay(a);
+	delay(500);
 	digitalWrite(D6, LOW);digitalWrite(D7, HIGH);
-	delay(a);  //Á½¸öpin
+	delay(a);  //ï¿½ï¿½ï¿½ï¿½pin
 	//digitalWrite(INH1, LOW);digitalWrite(INH2, HIGH);
 	//digitalWrite(RD, LOW);digitalWrite(RC, LOW); digitalWrite(RB, LOW); digitalWrite(RA, LOW);
 	//delay(a);//0
 	//digitalWrite(RD, LOW);digitalWrite(RC, LOW); digitalWrite(RB, LOW); digitalWrite(RA, HIGH);
 	//delay(a);//1
 }
-void dataRead(const String& data)//ÊäÈë¿ò
+void dataRead(const String& data)//ï¿½ï¿½ï¿½ï¿½ï¿½
 {
 
-	BLINKER_LOG("Blinker readString: ", data);//dataÎªÊäÈëÊý¾Ý
-	a = data.toFloat();//aÎªÐÞ¸ÄµÄãÐÖµ
+	BLINKER_LOG("Blinker readString: ", data);//dataÎªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	a = data.toFloat();//aÎªï¿½Þ¸Äµï¿½ï¿½ï¿½Öµ
 
 }
